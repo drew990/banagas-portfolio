@@ -4,8 +4,10 @@ import ProfilePic from "../images/ProfilePic2.png";
 export default function AboutMe() {
   return (
     <div className="component-container">
-      <h1>About Me section</h1>
-      <img src={ProfilePic} alt="Frame 1" className="aboutMe-img" />
+      <h1>About Me 😄</h1>
+      <div>
+        <img src={ProfilePic} alt="Frame 1" className="aboutMe-img" />
+      </div>
       <p>
         Greetings! My name is Andrew and I'm the owner of Banagas Tech. I'm a
         web developer with a passion for coding. I started Banagas Tech with the

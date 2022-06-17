@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/form.css";
 import ProfilePic from "../images/ProfilePic.png";
 import {
@@ -12,91 +12,91 @@ import { MdEmail, MdSchool } from "react-icons/md";
 import { IconContext } from "react-icons";
 import resumeFile from "../files/AndrewBanagasResume.zip";
 
-function ContactForm() {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  // const [errorMessage, setErrorMessage] = useState("");
+// function ContactForm() {
+//   const [email, setEmail] = useState("");
+//   const [name, setName] = useState("");
+//   const [message, setMessage] = useState("");
+//   // const [errorMessage, setErrorMessage] = useState("");
 
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+//   const handleInputChange = (e) => {
+//     const { target } = e;
+//     const inputType = target.name;
+//     const inputValue = target.value;
 
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "name") {
-      setName(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-  };
+//     if (inputType === "email") {
+//       setEmail(inputValue);
+//     } else if (inputType === "name") {
+//       setName(inputValue);
+//     } else {
+//       setMessage(inputValue);
+//     }
+//   };
 
+//   return (
+//     <div>
+//       <form className="container">
+//         <div>
+//           <label className="field field_v1">
+//             <input
+//               value={email}
+//               onChange={handleInputChange}
+//               type="email"
+//               name="email"
+//               placeholder="email"
+//               className="field__input"
+//               required
+//             />
+//             <span className="field__label-wrap">
+//               <span className="field__label">Email</span>
+//             </span>
+//           </label>
+//         </div>
+//         <div>
+//           <label className="field field_v1">
+//             <input
+//               value={name}
+//               onChange={handleInputChange}
+//               type="name"
+//               name="name"
+//               placeholder="name"
+//               className="field__input"
+//               required
+//             />
+//             <span className="field__label-wrap">
+//               <span className="field__label">Name</span>
+//             </span>
+//           </label>
+//         </div>
+//         <div>
+//           <label className="field field_v1">
+//             <textarea
+//               value={message}
+//               onChange={handleInputChange}
+//               type="message"
+//               name="message"
+//               placeholder="message"
+//               className="field__input"
+//               style={{ height: "4rem", width: "253.33px" }}
+//               required
+//             />
+//             <span className="field__label-wrap">
+//               <span className="field__label">Message</span>
+//             </span>
+//           </label>
+//         </div>
+//         <div>
+//           <button>Submit</button>
+//         </div>
+//       </form>
+//     </div>
+//   );
+// }
+
+function Resume() {
   return (
     <div>
-      <form className="container">
-        <div>
-          <label className="field field_v1">
-            <input
-              value={email}
-              onChange={handleInputChange}
-              type="email"
-              name="email"
-              placeholder="email"
-              className="field__input"
-              required
-            />
-            <span className="field__label-wrap">
-              <span className="field__label">Email</span>
-            </span>
-          </label>
-        </div>
-        <div>
-          <label className="field field_v1">
-            <input
-              value={name}
-              onChange={handleInputChange}
-              type="name"
-              name="name"
-              placeholder="name"
-              className="field__input"
-              required
-            />
-            <span className="field__label-wrap">
-              <span className="field__label">Name</span>
-            </span>
-          </label>
-        </div>
-        <div>
-          <label className="field field_v1">
-            <textarea
-              value={message}
-              onChange={handleInputChange}
-              type="message"
-              name="message"
-              placeholder="message"
-              className="field__input"
-              style={{ height: "4rem", width: "253.33px" }}
-              required
-            />
-            <span className="field__label-wrap">
-              <span className="field__label">Message</span>
-            </span>
-          </label>
-        </div>
-        <div>
-          <button>Submit</button>
-        </div>
-      </form>
-    </div>
-  );
-}
-
-function Contact() {
-  return (
-    <div>
-      <section id="resume">
-        <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>Resume</h2>
+      <section>
+        <h1 style={{ textAlign: "center", margin: "2rem auto" }}>Resume</h1>
 
         <div className="resume-container">
           <aside className="resume-aside">
@@ -225,15 +225,10 @@ function Contact() {
         </div>
       </section>
       <section id="contact" className="component-container">
-        <h2>Contact Me </h2>
-        <p>
-          Feel free to leave any message or ask any questions that you might
-          have 😄
-        </p>
-        <ContactForm />
+        {/* <ContactForm /> */}
       </section>
     </div>
   );
 }
 
-export default Contact;
+export default Resume;

@@ -11,7 +11,7 @@ import { IconContext } from "react-icons";
 export default function Portfolio() {
   return (
     <div className="component-container">
-      <h1>Github Projects</h1>
+      <h1>Github Projects 👨‍💻</h1>
       <div className="row">
         <div className="column">
           <a

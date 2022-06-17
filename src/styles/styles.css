@@ -215,6 +215,10 @@
   max-width: 400px;
 }
 
+.active {
+  font-weight: 800;
+}
+
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;
@@ -230,5 +234,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     height: 100px;
+  }
+
+  .aboutMe-img {
+    margin-bottom: 2rem;
+    box-shadow: -1px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+    margin: 1rem auto 2rem auto;
   }
 }
