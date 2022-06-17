@@ -10,12 +10,13 @@ import {
 } from "react-icons/bs";
 import { MdEmail, MdSchool } from "react-icons/md";
 import { IconContext } from "react-icons";
+import resumeFile from "../files/AndrewBanagasResume.zip";
 
 function ContactForm() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  // const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -96,6 +97,7 @@ function Contact() {
     <div>
       <section id="resume">
         <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>Resume</h2>
+
         <div className="resume-container">
           <aside className="resume-aside">
             <div className="resume-img-container">
@@ -215,6 +217,11 @@ function Contact() {
               </div>
             </section>
           </div>
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <a href="path_to_file" download={resumeFile}>
+            <button>Download My Resume! 📔</button>
+          </a>
         </div>
       </section>
       <section id="contact" className="component-container">
