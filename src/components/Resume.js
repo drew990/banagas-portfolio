@@ -162,16 +162,22 @@ function Resume() {
                     Feb 2022 - <span className="current">Current</span>
                   </p>
                 </div>
-                <p className="resume-work-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
+                <ul className="resume-work-para">
+                  <li>
+                    Helped members with changing their tires, Batteries,
+                    jumpstarting cars, and getting keys out of their locked car
+                  </li>
+                  <li>Independently self-identify the problem of the car</li>
+                  <li>
+                    Help coworkers with issues that'll give better customer
+                    service or able to help members with their cars
+                  </li>
+                  <li>
+                    Always showed up with an open mindset because each problem
+                    is different
+                  </li>
+                </ul>
+
                 <div style={{ marginTop: "2rem" }}>
                   <h4> Warehouse Material Handler / Windsor</h4>
                 </div>
@@ -179,7 +185,22 @@ function Resume() {
                   <BsFillCalendarFill />
                   <p>Dec 2021 - Jan 2022</p>
                 </div>
-                <p className="resume-work-para">
+                <ul className="resume-work-para">
+                  <li>Track over 15,000 units in inventory</li>
+                  <li>
+                    Responsible for separating units into the correct
+                    departments
+                  </li>
+                  <li>
+                    Communicated with coworkers to work as efficiently as
+                    possible
+                  </li>
+                  <li>
+                    Emailed messages back to departments that required us to
+                    change or update units from inventory
+                  </li>
+                </ul>
+                {/* <p className="resume-work-para">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -188,7 +209,7 @@ function Resume() {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </p>
+                </p> */}
               </div>
             </section>
             <section className="resume-work">
