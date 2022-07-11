@@ -4,7 +4,7 @@ import workDay from "../images/Git-Projects/workDay.png";
 import Weather from "../images/Git-Projects/Weather.png";
 import Josh from "../images/Git-Projects/JoslyneKeehmer.png";
 import SocialMediaAPI from "../images/Git-Projects/SocialMediaAPI.png";
-import PageOneLib from "../images/Git-Projects/PageOneLib.png";
+import Yummy from "../images/Git-Projects/Mern.png";
 import { BsGithub } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
@@ -162,18 +162,18 @@ export default function Portfolio() {
         </div>
         <div className="column">
           <a
-            href="https://fathomless-shelf-93738.herokuapp.com/"
+            href="https://blooming-escarpment-45652.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <article
               className="github-img"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(${PageOneLib})   `,
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(${Yummy})   `,
               }}
             >
               <a
-                href="https://github.com/drew990/Page-One-Library"
+                href="https://github.com/StephenWDickey/yummy-grocery/tree/readySubmit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="website-link"
@@ -182,7 +182,7 @@ export default function Portfolio() {
                   <IconContext.Provider value={{ size: "2em" }}>
                     <BsGithub />
                   </IconContext.Provider>
-                  <h4>Page One Library</h4>
+                  <h4>Yummy Gsrocery</h4>
                 </div>
               </a>
             </article>
