@@ -182,7 +182,7 @@ export default function Portfolio() {
                   <IconContext.Provider value={{ size: "2em" }}>
                     <BsGithub />
                   </IconContext.Provider>
-                  <h4>Yummy Gsrocery</h4>
+                  <h4>Yummy Grocery</h4>
                 </div>
               </a>
             </article>

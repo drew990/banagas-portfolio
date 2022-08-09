@@ -9,13 +9,20 @@ export default function AboutMe() {
         <img src={ProfilePic} alt="Frame 1" className="aboutMe-img" />
       </div>
       <p>
-        Greetings! My name is Andrew and I'm the owner of Banagas Tech. I'm a
-        web developer with a passion for coding. I started Banagas Tech with the
-        idea of helping small business owners like yourself, by offering
-        websites. If you are like me then you like growing your business too.
-        Don't worry I have got you covered! I promise to do my best to provide
-        quality service customer service helping your business. If there is
-        anything you need, I'll be happy to help if I can!
+        Since college, I have been practicing coding for years for better coding
+        practice and to improve my skills to give back. Starting from a simple
+        Hello World in C++, to Perl for better understanding, to making my
+        website with HTML, CSS, Node, and Javascript is very amazing. I have
+        continuously improved my skills and knowledge ever since.
+        <br /> <br />I do this because I am a very driven, passionate person
+        that loves to help people achieve their dreams and I love to help them
+        get there. Whether it be a small business they just started up,
+        portfolio, or expanding, I'll make sure that they will grow
+        <br /> <br />
+        A little bit about me is that I spent 4 years at California State
+        University - San Marcos. I first was majoring in Computer Science but
+        switch to Physics and added a minor in mathematics.
+        <br /> <br />I hope to hear from you soon!
       </p>
     </div>
   );

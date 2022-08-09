@@ -10,87 +10,7 @@ import {
 } from "react-icons/bs";
 import { MdEmail, MdSchool } from "react-icons/md";
 import { IconContext } from "react-icons";
-import resumeFile from "../files/AndrewBanagasResume.zip";
-
-// function ContactForm() {
-//   const [email, setEmail] = useState("");
-//   const [name, setName] = useState("");
-//   const [message, setMessage] = useState("");
-//   // const [errorMessage, setErrorMessage] = useState("");
-
-//   const handleInputChange = (e) => {
-//     const { target } = e;
-//     const inputType = target.name;
-//     const inputValue = target.value;
-
-//     if (inputType === "email") {
-//       setEmail(inputValue);
-//     } else if (inputType === "name") {
-//       setName(inputValue);
-//     } else {
-//       setMessage(inputValue);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <form className="container">
-//         <div>
-//           <label className="field field_v1">
-//             <input
-//               value={email}
-//               onChange={handleInputChange}
-//               type="email"
-//               name="email"
-//               placeholder="email"
-//               className="field__input"
-//               required
-//             />
-//             <span className="field__label-wrap">
-//               <span className="field__label">Email</span>
-//             </span>
-//           </label>
-//         </div>
-//         <div>
-//           <label className="field field_v1">
-//             <input
-//               value={name}
-//               onChange={handleInputChange}
-//               type="name"
-//               name="name"
-//               placeholder="name"
-//               className="field__input"
-//               required
-//             />
-//             <span className="field__label-wrap">
-//               <span className="field__label">Name</span>
-//             </span>
-//           </label>
-//         </div>
-//         <div>
-//           <label className="field field_v1">
-//             <textarea
-//               value={message}
-//               onChange={handleInputChange}
-//               type="message"
-//               name="message"
-//               placeholder="message"
-//               className="field__input"
-//               style={{ height: "4rem", width: "253.33px" }}
-//               required
-//             />
-//             <span className="field__label-wrap">
-//               <span className="field__label">Message</span>
-//             </span>
-//           </label>
-//         </div>
-//         <div>
-//           <button>Submit</button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// }
+// import resumeFile from "../files/AndrewBanagas.pdf";
 
 function Resume() {
   return (
@@ -164,17 +84,21 @@ function Resume() {
                 </div>
                 <ul className="resume-work-para">
                   <li>
-                    Helped members with changing their tires, Batteries,
-                    jumpstarting cars, and getting keys out of their locked car
-                  </li>
-                  <li>Independently self-identify the problem of the car</li>
-                  <li>
-                    Help coworkers with issues that'll give better customer
-                    service or able to help members with their cars
+                    Provide services to members such as installing batteries,
+                    changing tires, and unlocking cars so members can get their
+                    keys again
                   </li>
                   <li>
-                    Always showed up with an open mindset because each problem
-                    is different
+                    Critically analyze the situation, as every car has its own
+                    unique features
+                  </li>
+                  <li>
+                    Tested batteries and gathered info to determine the results
+                    and the state of a battery
+                  </li>
+                  <li>
+                    Work with coworkers to provide backup if a member's car gets
+                    too hard for one person to work on
                   </li>
                 </ul>
 
@@ -200,16 +124,6 @@ function Resume() {
                     change or update units from inventory
                   </li>
                 </ul>
-                {/* <p className="resume-work-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p> */}
               </div>
             </section>
             <section className="resume-work">
@@ -240,8 +154,14 @@ function Resume() {
           </div>
         </div>
         <div style={{ textAlign: "center" }}>
-          <a href="path_to_file" download={resumeFile}>
-            <button>Download My Resume! 📔</button>
+          <a
+            href="https://docs.google.com/document/d/1nsqN7uaS06EWy09-NgzkHPh11peFZq7OUwPUsDLEHQc/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ cursor: "pointer" }}>
+              Download My Resume! 📔
+            </button>
           </a>
         </div>
       </section>
